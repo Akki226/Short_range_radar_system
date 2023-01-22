@@ -1,0 +1,31 @@
+{
+  "name": "short-radar",
+  "version": "1.0.0",
+  "description": "Short range radar interface using React.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js --open",
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "Your name",
+  "license": "MIT",
+  "dependencies": {
+    "@serialport/bindings-cpp": "^10.8.0",
+    "@serialport/parser-readline": "^10.5.0",
+    "child_process": "^1.0.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "serialport": "^10.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.13",
+    "@babel/preset-env": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^4.5.2",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
